@@ -60,7 +60,7 @@ document.getElementById("search-button").addEventListener("click", function() {
   
       // Reset the background color
       document.body.style.backgroundColor = "";
-    }, 10000); // 10 seconds in milliseconds
+    }, 5000); // 5 seconds in milliseconds
   
     // Clear the form values
     document.getElementById("search-name").value = "";
